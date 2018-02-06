@@ -10,7 +10,7 @@
 
 
 ### 版本
-* v 1.0.0 初始版本
+* v 1.0.1 初始版本
     * 当传入context为 Application context 或者为null时将不会收到回调
 
 ### 安装
