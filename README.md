@@ -16,16 +16,19 @@
 ### 安装
 add dependency to build.gradle 
 
+
 ```
-xxxx
+compile 'com.jfson:widget:1.0.0'
 ```
 ### 使用
 
 ```
  // 该类去实现 LifecycleListener 接口
  WidgetControl.getInstance().get(getContext()).addListener(this);
+ 
+ // 自行remove 或者交由WidgetControl统一处理
+ WidgetControl.getInstance().get(getContext()).removeListener(this);
 ```
-
 
 ### 原理
 * 流程图
