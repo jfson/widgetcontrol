@@ -18,7 +18,7 @@ add dependency to build.gradle
 
 
 ```
-compile 'com.jfson:widget:1.0.0'
+compile 'com.jfson:widget:1.0.1'
 ```
 ### 使用
 
