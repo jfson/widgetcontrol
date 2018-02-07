@@ -31,6 +31,10 @@ compile 'com.jfson:widget:1.0.1'
 ```
 
 ### 原理
+* 概述
+    * a.通过 context 找到该FragmentActivity唯一的FragmentManager
+    * b.根据FragmentManager新建唯一的空Fragment，添加至FragmentManager中。
+    * c.每个Fragment持有唯一LifeManager,并回调生命周期给向其注册过的View
 * 流程图
 ![流程图](https://github.com/jfson/ImgResource/blob/master/38.png?raw=true)
 
